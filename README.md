@@ -18,3 +18,7 @@ ex) git remote add origin https://gitbub.com/kittypolly/demo.git</pre></code>
 <code>git push -u origin master --tags</pre></code>
 origin으로 master 브랜치와 모든 태그를 업로드 한다.
 
+
+# 잘못 연결했을때 remote 삭제하는법
+<pre>
+<code>git remote rm [저장소이름]</pre></code>
